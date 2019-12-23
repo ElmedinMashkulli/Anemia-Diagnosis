@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width= "match_parent"
+        android:layout_height= "?attr/actionBarSize"
+        android:theme= "@style/AppTheme.NoActionBar" >
+        <androidx.appcompat.widget.Toolbar
+            android:id= "@+id/toolbar"
+            app:titleTextColor="@color/background"
+            android:layout_width= "match_parent"
+            android:layout_height= "?attr/actionBarSize"
+            android:background= "?attr/colorPrimary"
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            app:popupTheme= "@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:layout_width="309dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/caduceus">
+            </ImageView>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp">
+            <RelativeLayout
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit">
+
+                <EditText
+                    android:id="@+id/hgbdegeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:background="@null"
+                    android:hint="HGB Degeri"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/lightColor"
+                    android:paddingLeft="10dp"
+                    android:imeOptions="actionGo"
+                    android:stateListAnimator="@null"
+                    android:textSize="16dp">
+
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/email_register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit">
+
+
+
+                <EditText
+                    android:id="@+id/hctdegeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:background="@null"
+                    android:hint="HCT Değeri"
+                    android:imeOptions="actionGo"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/lightColor"
+                    android:stateListAnimator="@null"
+                    android:textSize="16dp">
+
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mchLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit">
+
+
+
+                <EditText
+                    android:id="@+id/mchdegeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:background="@null"
+                    android:hint="MCH Değeri"
+                    android:imeOptions="actionGo"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/lightColor"
+                    android:stateListAnimator="@null"
+                    android:textSize="16dp">
+
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rbcLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit">
+
+
+
+                <EditText
+                    android:id="@+id/rbcdegeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:background="@null"
+                    android:hint="RBC Değeri"
+                    android:imeOptions="actionGo"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/lightColor"
+                    android:stateListAnimator="@null"
+                    android:textSize="16dp">
+
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/hesapla"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="380dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/hesapla">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/raleway_medium"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="Hesapla"
+                    android:textColor="@color/white"
+                    android:textSize="24dp">
+
+                </TextView>
+            </RelativeLayout>
+</RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
