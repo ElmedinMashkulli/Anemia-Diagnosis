@@ -162,6 +162,60 @@
                 </EditText>
             </RelativeLayout>
 
+
+
+
+    <RelativeLayout
+        android:id="@+id/evet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/hesapla"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="EVET"
+            android:textColor="@color/white"
+            android:textSize="24dp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hayir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/hayir"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="Hayır"
+            android:textColor="@color/white"
+            android:textSize="24dp">
+
+        </TextView>
+    </RelativeLayout>
+
+
             <RelativeLayout
                 android:id="@+id/hesapla"
                 android:layout_width="match_parent"
