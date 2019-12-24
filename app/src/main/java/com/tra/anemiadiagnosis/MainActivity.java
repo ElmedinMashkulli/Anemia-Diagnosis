@@ -38,66 +38,29 @@ public class MainActivity extends AppCompatActivity {
         btnHesapla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mHGBResult=HGBEdit.getText().toString().trim();
-                HGBResult=Integer.parseInt(mHGBResult);
 
-                mHCTResult=HGBEdit.getText().toString().trim();
-                HCTResult=Integer.parseInt(mHCTResult);
+                editTextConvert();
 
-                mMCHResult=HGBEdit.getText().toString().trim();
-                MCHResult=Integer.parseInt(mMCHResult);
-
-                mRBCResult=HGBEdit.getText().toString().trim();
-                RBCResult=Integer.parseInt(mRBCResult);
                 resultLoop();
 
             }
         });
 
-/*
-        if(HGBResult > 10.950){
 
-            if(HCTResult > 33.950){
+    }
 
-                if(HGBResult <= 11.350){
+    public void editTextConvert(){
+        mHGBResult=HGBEdit.getText().toString().trim();
+        HGBResult=Integer.parseInt(mHGBResult);
 
-                    if(MCHResult > 29.950){
+        mHCTResult=HGBEdit.getText().toString().trim();
+        HCTResult=Integer.parseInt(mHCTResult);
 
-                        if(RBCResult > 3.665){
-                            //YES
-                            evet.setVisibility(View.VISIBLE);
-                            hayir.setVisibility(View.GONE);
-                        }else if (RBCResult <= 3.665){
-                            //NO
-                            evet.setVisibility(View.GONE);
-                            hayir.setVisibility(View.VISIBLE);
-                        }
-                    }else if(MCHResult <= 29.950){
-                        //NO
-                        evet.setVisibility(View.GONE);
-                        hayir.setVisibility(View.VISIBLE);
-                    }
+        mMCHResult=HGBEdit.getText().toString().trim();
+        MCHResult=Integer.parseInt(mMCHResult);
 
-                }else if(HGBResult > 11.350){
-                    //NO
-                    evet.setVisibility(View.GONE);
-                    hayir.setVisibility(View.VISIBLE);
-                }
-            }else if(HCTResult <= 33.950){
-                //NO
-                evet.setVisibility(View.GONE);
-                hayir.setVisibility(View.VISIBLE);
-            }
-
-        } else if(HGBResult <= 10.950){
-            //yes
-            evet.setVisibility(View.VISIBLE);
-            hayir.setVisibility(View.GONE);
-        }
-*/
-
-
-
+        mRBCResult=HGBEdit.getText().toString().trim();
+        RBCResult=Integer.parseInt(mRBCResult);
     }
 
     public void resultLoop(){

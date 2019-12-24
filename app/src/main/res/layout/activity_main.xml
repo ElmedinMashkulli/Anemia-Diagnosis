@@ -64,7 +64,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/raleway_medium"
                     android:background="@null"
-                    android:hint="HGB Degeri"
+                    android:hint="HGB Değeri"
                     android:inputType="number|numberDecimal"
                     android:textColor="@color/lightColor"
                     android:paddingLeft="10dp"
