@@ -4,5 +4,6 @@
     <string name="app_name">Tibbi Istatistik</string>
 
     <string name="hesapla">HESAPLA</string>
+    <string name="title_activity_home">Ana Sayfa</string>
 
 </resources>
