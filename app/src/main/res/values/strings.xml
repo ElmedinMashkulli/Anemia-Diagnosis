@@ -6,4 +6,72 @@
     <string name="hesapla">HESAPLA</string>
     <string name="title_activity_home">Ana Sayfa</string>
 
+    <string name="SSSTitle1">Kansızlık ya da anemi nedir</string>
+    <string name="SSSTitle2">Kansızlık neden olur?</string>
+    <string name="SSSTitle3">Kansızlığa ne iyi gelir?</string>
+    <string name="SSSTitle4">Kansızlık neden olur?</string>
+    <string name="SSSTitle5">Kansızlık belirtisi nelerdir?</string>
+    <string name="SSSTitle6">Kansızlık tedavisi nasıl yapılır? </string>
+
+    <string name="SSSText1">Kansızlık ya da anemi nedir sorusunun cevabı: Kanda yeterince sağlıklı kırmızı kan hücresi veya hemoglobin olmadığında ortaya çıkan bir durumdur şeklinde verilebilir. Hemoglobin, kırmızı kan hücrelerinde bulunan, oksijenin taşınmasında sorumlu moleküldür. Vücutta çok az sayıda veya anormal yapıda kırmızı kan hücresi varsa veya hemoglobinlerin yapısı anormal veya miktarı düşükse anemi belirtileri ortaya çıkar. Yorgunluk, halsizlik gibi kansızlık belirtileri, vücut dokularına yeterince oksijen götürülememesi sonucunda gelişir.</string>
+    <string name="SSSText2">Vücudun hayatta kalabilmesi için kırmızı kan hücrelerine ihtiyacı vardır. Kırmızı kan hücrelerinin yapısında demir molekülleri içeren ve kompleks bir protein olan hemoglobin bulunur. Hemoglobin molekülleri, akciğerlerden vücudun geri kalan kısmına oksijen taşır. Anemi, kanda yeterince kırmızı kan hücresi bulunmadığında ortaya çıkar. Bazı hastalıklar ve durumlar kırmızı kan hücrelerinin sayısında azalmaya neden olabilir. Birçok anemi türü vardır ve tek bir nedeni yoktur. Kesin nedeni tam olarak belirlemek bazen zor olabilir. Peki kansızlık neden olur? Kansızlık nedenleri şu şekilde sıralanabilir:
+⦁	Vücutta yeterince kırmızı kan hücresi üretilememesi
+⦁	Kanama nedeniyle kırmızı kan hücrelerinin kaybında artma
+⦁	Kırmızı kan hücrelerinin vücutta normalden daha kısa sürede yok edilmesi
+Farklı anemi tiplerinin farklı nedenleri vardır. Anemi tiplerine bağlı nedenlerden bazıları şunları içerir:
+⦁	Demir eksikliği anemisi: Demir eksikliği anemisi en yaygın görülen anemi türüdür. Demir eksikliği anemisi vücutta görülen demir kıtlığından kaynaklanır. Kemik iliğinin kırmızı kan hücrelerinin ihtiyaç duyduğu hemoglobini yapabilmesi için demire ihtiyacı vardır. Yeterli demir olmadan kırmızı kan hücrelerinin üretimi için gereken hemoglobin üretilemez. Bu tip anemi, demir takviyesi almayan birçok hamile kadında ortaya çıkar. Ayrıca, ağır adet kanamaları, mide ülseri ve kanser demir eksikliği anemisine neden olabilir.
+⦁	Vitamin eksikliğine bağlı anemi: Demirin yanı sıra, vücudun yeterince sağlıklı kırmızı kan hücresi üretmek için folat ve B12 vitaminine ihtiyacı vardır. Bu vitaminlerin eksik alındığı bir diyet, kırmızı kan hücresi üretiminin azalmasına neden olabilir. Ayrıca, yeterli miktarda B12 alan bazı insanlarda vitaminin bağırsaklarda emilmesi konusunda sıkıntı vardır. Bu emilim bozukluğu, pernisiyöz anemi olarak da bilinen B12 vitamin eksikliği anemisine yol açabilir.
+⦁	Kronik hastalık anemisi: Kanser, HIV / AIDS, romatoid artrit, böbrek hastalığı, crohn hastalığı gibi bazı iltihabi hastalıklar, kırmızı kan hücrelerinin üretimini engelleyebilir.
+⦁	Aplastik anemi: Aplastik anemi nadir görülen ancak hayatı tehdit eden bir kansızlık türüdür. Vücut yeterince kırmızı kan hücresi üretmediğinde ortaya çıkar. Aplastik aneminin nedenleri arasında enfeksiyonlar, bazı ilaçlar, otoimmün hastalıklar ve toksik kimyasallara maruz kalma sayılabilir.
+⦁	Kemik iliği hastalığına bağlı anemiler: Lösemi ve miyelofibroz gibi çeşitli hastalıklar kemik iliğinde kan hücresi oluşumunu etkileyerek kansızlığa neden olabilir. Bu tip kanserlerin ve kanser benzeri bozuklukların etkileri, hafif olabileceği gibi hayatı tehdit edici de olabilir.
+⦁	Hemolitik anemiler: Hemolitik anemiler, kırmızı kan hücrelerinin yıkımı üretiminden daha hızlı olduğunda ortaya çıkar. Bazı kan hastalıkları kırmızı kan hücresi yıkımını arttırır. Hemolitik anemi kalıtsal olarak ebeveynlerden miras alınabilir veya sonradan ortaya çıkabilir.
+⦁	Orak hücre anemisi: Orak hücreli anemi kalıtsal bir hemolitik anemi türüdür. Kırmızı kan hücrelerinin anormal orak şeklinde oluşmasıyla sonuçlanan hatalı bir hemoglobin formundan kaynaklanır. Bu anormal şekilli kan hücreleri vaktinden önce ölür. Bu da kırmızı kan hücrelerinin kronik yetersizliğine neden olur.
+⦁	</string>
+    <string name="SSSText3">Anemi bağışıklık sistemini zayıflatma eğilimindedir ve bu nedenle kişi enfeksiyonlara ve inflamatuar hastalıklara daha yatkın olabilir. Yeterli C vitamini dozu bağışıklık sistemini güçlendirir ve aynı zamanda demirin emiliminde yardımcı olur. C vitamini ihtiyacını karşılamak için portakal yemek ya da her gün bir bardak limon suyu içmek iyi olur. 
+Ispanak, kereviz, hardal yeşili ve brokoli gibi yeşil sebzelerde bulunan yüksek miktarda klorofil iyi bir demir kaynağıdır.  Ispanakları çiğ olarak tüketmekten ziyade pişirilmesi daha doğrudur. Çünkü çiğ ıspanağın içeriğindeki oksalik asit vücutta demir emilimini engelleyebilir. Taze pancar veya nar suyu, harika kan yapıcı ve kan temizleyi olarak işlev görür. Pancar folik asit bakımından da zengindir. Susam tohumu, özellikle de siyah susam tohumu demir alımını arttırmanın iyi bir yoludur.</string>
+
+    <string name="SSSText4">Kansızlık nedenleri şu şekilde sıralanabilir:
+⦁	Vücutta yeterince kırmızı kan hücresi üretilememesi
+⦁	Kanama nedeniyle kırmızı kan hücrelerinin kaybında artma
+⦁	Kırmızı kan hücrelerinin vücutta normalden daha kısa sürede yok edilmesi
+Farklı anemi tiplerinin farklı nedenleri vardır. Anemi tiplerine bağlı nedenlerden bazıları şunları içerir:
+⦁	Demir eksikliği anemisi: Demir eksikliği anemisi en yaygın görülen anemi türüdür. Demir eksikliği anemisi vücutta görülen demir kıtlığından kaynaklanır. Kemik iliğinin kırmızı kan hücrelerinin ihtiyaç duyduğu hemoglobini yapabilmesi için demire ihtiyacı vardır. Yeterli demir olmadan kırmızı kan hücrelerinin üretimi için gereken hemoglobin üretilemez. Bu tip anemi, demir takviyesi almayan birçok hamile kadında ortaya çıkar. Ayrıca, ağır adet kanamaları, mide ülseri ve kanser demir eksikliği anemisine neden olabilir.
+⦁	Vitamin eksikliğine bağlı anemi: Demirin yanı sıra, vücudun yeterince sağlıklı kırmızı kan hücresi üretmek için folat ve B12 vitaminine ihtiyacı vardır. Bu vitaminlerin eksik alındığı bir diyet, kırmızı kan hücresi üretiminin azalmasına neden olabilir. Ayrıca, yeterli miktarda B12 alan bazı insanlarda vitaminin bağırsaklarda emilmesi konusunda sıkıntı vardır. Bu emilim bozukluğu, pernisiyöz anemi olarak da bilinen B12 vitamin eksikliği anemisine yol açabilir.
+⦁	Kronik hastalık anemisi: Kanser, HIV / AIDS, romatoid artrit, böbrek hastalığı, crohn hastalığı gibi bazı iltihabi hastalıklar, kırmızı kan hücrelerinin üretimini engelleyebilir.
+⦁	Aplastik anemi: Aplastik anemi nadir görülen ancak hayatı tehdit eden bir kansızlık türüdür. Vücut yeterince kırmızı kan hücresi üretmediğinde ortaya çıkar. Aplastik aneminin nedenleri arasında enfeksiyonlar, bazı ilaçlar, otoimmün hastalıklar ve toksik kimyasallara maruz kalma sayılabilir.
+⦁	Kemik iliği hastalığına bağlı anemiler: Lösemi ve miyelofibroz gibi çeşitli hastalıklar kemik iliğinde kan hücresi oluşumunu etkileyerek kansızlığa neden olabilir. Bu tip kanserlerin ve kanser benzeri bozuklukların etkileri, hafif olabileceği gibi hayatı tehdit edici de olabilir.
+⦁	Hemolitik anemiler: Hemolitik anemiler, kırmızı kan hücrelerinin yıkımı üretiminden daha hızlı olduğunda ortaya çıkar. Bazı kan hastalıkları kırmızı kan hücresi yıkımını arttırır. Hemolitik anemi kalıtsal olarak ebeveynlerden miras alınabilir veya sonradan ortaya çıkabilir.
+⦁	Orak hücre anemisi: Orak hücreli anemi kalıtsal bir hemolitik anemi türüdür. Kırmızı kan hücrelerinin anormal orak şeklinde oluşmasıyla sonuçlanan hatalı bir hemoglobin formundan kaynaklanır. Bu anormal şekilli kan hücreleri vaktinden önce ölür. Bu da kırmızı kan hücrelerinin kronik yetersizliğine neden olur.
+⦁	Kronik kurşun zehirlenmesine bağlı anemi
+</string>
+    <string name="SSSText5">Kansızlık belirtileri aneminin tipine, ciddiyetine ve kanama, mide ülser, adet problemleri veya kanser gibi altta yatan sağlık problemlerine göre değişiklik gösterir. Altta yatan sorunların spesifik belirtileri genellikle kansızlığa bağlı belirtilerden önce fark edilebilir. Vücut aynı zamanda kansızlığa bağlı erken belirtileri telafi etme konusunda olağanüstü bir yeteneğe sahiptir. Kansızlık hafifse veya uzun bir süre içerisinde yavaş bir şekilde gelişirse, herhangi bir semptom fark edilmeyebilir. Birçok anemi tipinde ortak olan semptomlar şunları içerir:
+⦁	Kolay yorulma ve enerji kaybı
+⦁	Özellikle egzersizle olan alışılmadık derecede hızlı ya da düzensiz kalp atışı
+⦁	Nefes darlığı
+⦁	Göğüs ağrısı
+⦁	Baş ağrısı
+⦁	Baş dönmesi
+⦁	Ciltte solukluk
+⦁	Bacaklarda kramplar
+⦁	Uykusuzluk
+Bazı anemi formlarının spesifik semptomları olabilir. Bu belirtiler şu şekilde sıralanabilir:
+⦁	Demir eksikliği anemisi: Kağıt, buz veya toprak gibi garip maddeleri yeme isteği, kaşık tırnak olarak adlandırılan tırnakların yukarı doğru eğriliği, ağız köşelerinde çatlaklar
+⦁	B12 Vitamini eksikliği: Ellerde veya ayaklarda karıncalanma ve uyuşukluk, dokunma duyusu kaybı, sendeleyerek yürüme ya da yürümede güçlük, kollarda ve bacaklarda sertlik, sakarlık, bunama
+⦁	Kronik kurşun zehirlenmesine bağlı kansızlık: Diş etlerinde mavi-siyah çizgi, karın ağrısı, kabızlık, kusma
+⦁	Hemolitik anemi (Kronik kırmızı kan hücresi yıkımının neden olduğu anemi): Sarılık (cilt ve gözlerde sararma), kahverengi veya kırmızı renkli idrar, bacaklarda yaralar, bebeklik döneminde gelişimsel gerilik, safra taşı oluşumuna bağlı belirtiler
+⦁	Orak hücre anemisi: Yorgunluk, enfeksiyonlara duyarlılık, çocuklarda büyüme ve gelişmede gecikme, özellikle eklemlerde, karın bölgesinde ve uzuvlarda şiddetli ağrı atakları
+⦁	Aplastik anemi: ateş, sık enfeksiyonlar ve deri döküntüleri
+⦁	Folik asit eksikliği anemisi: sinirlilik, ishal ve pürüzsüz bir dil
+</string>
+    <string name="SSSText6">Kansızlık tedavisinde kullanılan çeşitli yöntemler vardır. Hepsinde kırmızı kan hücresi sayısının artırılması hedeflenir. Böylece kanın taşıdığı oksijen miktarı arttırılır. Tedavi aneminin tipine ve nedenine bağlı olarak planlanır. 
+⦁	Demir eksikliği anemisi: Demir takviyeleri veya diyet değişiklikleri. Demir eksikliği kan kaybından kaynaklanıyorsa kanama bulunmalı ve durmalıdır.
+⦁	B12 eksikliğine bağlı anemi: Tedavi diyet takviyeleri ve B12 enjeksiyonlarını içerir.
+⦁	Talasemi: Tedavi folik asit takviyesi, dalağın çıkarılması ve bazen kan nakli ve kemik iliği naklini içerir.
+⦁	Kronik hastalık anemisi: Bu anemi tipi, kronik altta yatan ciddi bir durumla ilişkili olabilir. Spesifik bir tedavisi yoktur ve odak, altta yatan durumdur.
+⦁	Aplastik anemi: Hastaya kan nakli veya kemik iliği nakli yapılır.
+⦁	Orak hücreli anemi: Tedavide, oksijen desteği, ağrı kesici ilaçlar ve damar içi sıvı takviyesi yapılır. Bazen antibiyotik tedavisi, folik asit takviyeleri ve kan nakli gerekli olabilir.
+⦁	Hemolitik anemiler: Hastalar kırmızı kan hücresi yıkımını daha kötü hale getirecek ilaçlardan uzak durmalıdır. Hastaya kırmızı kan hücrelerine saldıran, bağışıklık sistemini baskılayıcı ilaçlar verilir ve enfeksiyonlar tedavi edilir.
+</string>
+
+    <string name="imgDescription">Tıp andıran Resim</string>
 </resources>

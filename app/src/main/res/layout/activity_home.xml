@@ -19,11 +19,11 @@
             app:popupTheme="@style/AppTheme.NoActionBars.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
 
     <include layout="@layout/content_home" />
 

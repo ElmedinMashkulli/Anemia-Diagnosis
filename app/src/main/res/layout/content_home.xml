@@ -8,147 +8,23 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".HomeActivity"
     tools:showIn="@layout/activity_home">
+    <ImageView
+        android:id="@+id/imageStart"
+        android:layout_width="309dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/caduceus"
+        android:contentDescription="@string/imgDescription"
+        />
 
-
-    <RelativeLayout
+    <view class="androidx.recyclerview.widget.RecyclerView"
+        android:id="@+id/recview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.6"
-        android:orientation="horizontal"
-        android:background="@color/white"
-        >
-
-        <ImageView
-            android:layout_width="309dp"
-            android:layout_height="177dp"
-            android:layout_marginTop="10dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/caduceus">
-        </ImageView>
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:id="@+id/nedirLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/hesapla">
-
-
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:fontFamily="@font/raleway_medium"
-        android:gravity="center"
-        android:paddingLeft="15dp"
-        android:text="Kansızlık nedir?"
-        android:textColor="@color/white"
-        android:textSize="24dp">
-
-    </TextView>
-        <RelativeLayout
-            android:id="@+id/nedirLayoutAnswer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:visibility="gone">
-
-        <ImageView
-            android:layout_width="309dp"
-            android:layout_height="177dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/pill">
-        </ImageView>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="250dp"
-            android:fontFamily="@font/raleway_medium"
-            android:gravity="center"
-            android:paddingLeft="15dp"
-            android:text="I/Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
-I/zygote64: Do partial code cache collection, code=30KB, data=29KB
-    After code cache collection, code=30KB, data=29KB
-    Increasing code cache capacity to 128KB
-I/zygote64: Do partial code cache collection, code=52KB, data=50KB
-    After code cache collection, code=52KB, data=50KB
-    Increasing code cache capacity to 256KB
-I/zygote64: Compiler allocated 6MB to compile void android.view.ViewRootImpl.performTraversals()
-I/zygote64: Do full code cache collection, code=90KB, data=108KB
-I/zygote64: After code cache collection, code=87KB, data=80KB
-I/zygote64: Do partial code cache collection, code=124KB, data=90KB
-I/zygote64: After code cache collection, code=124KB, data=90KB
-    Increasing code cache capacity to 512KB
-D/OpenGLRenderer: endAllActiveAnimators on 0x78cedd3c00 (RippleDrawable) with handle 0x78d194a820
-"
-            android:textColor="@color/white"
-            android:textSize="24dp">
-
-        </TextView>
-        </RelativeLayout>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/nedirLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/hesapla">
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:fontFamily="@font/raleway_medium"
-            android:gravity="center"
-            android:paddingLeft="15dp"
-            android:text="Kansızlık nedir?"
-            android:textColor="@color/white"
-            android:textSize="24dp">
-
-        </TextView>
-        <RelativeLayout
-            android:id="@+id/nedirLayoutAnswer1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:visibility="gone">
-
-            <ImageView
-                android:layout_width="309dp"
-                android:layout_height="177dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/pill">
-            </ImageView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="250dp"
-                android:fontFamily="@font/raleway_medium"
-                android:gravity="center"
-                android:paddingLeft="15dp"
-                android:text="Test2"
-                android:textColor="@color/white"
-                android:textSize="24dp">
-
-            </TextView>
-        </RelativeLayout>
-
-    </RelativeLayout>
-
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageStart"
+        android:background="#fafafa" />
 
 
 </RelativeLayout>

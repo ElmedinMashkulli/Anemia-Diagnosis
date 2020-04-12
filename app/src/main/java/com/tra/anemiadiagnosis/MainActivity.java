@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText HGBEdit , HCTEdit , MCHEdit , RBCEdit;
     String mHGBResult,mHCTResult,mMCHResult,mRBCResult;
-    Integer HGBResult ,HCTResult,MCHResult,RBCResult;
+    Float HGBResult ,HCTResult,MCHResult,RBCResult;
     RelativeLayout btnHesapla,hayir,evet;
 
     @Override
@@ -51,16 +51,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void editTextConvert(){
         mHGBResult=HGBEdit.getText().toString().trim();
-        HGBResult=Integer.parseInt(mHGBResult);
+        HGBResult=Float.parseFloat(mHGBResult);
 
         mHCTResult=HGBEdit.getText().toString().trim();
-        HCTResult=Integer.parseInt(mHCTResult);
+        HCTResult=Float.parseFloat(mHCTResult);
 
         mMCHResult=HGBEdit.getText().toString().trim();
-        MCHResult=Integer.parseInt(mMCHResult);
+        MCHResult=Float.parseFloat(mMCHResult);
 
         mRBCResult=HGBEdit.getText().toString().trim();
-        RBCResult=Integer.parseInt(mRBCResult);
+        RBCResult=Float.parseFloat(mRBCResult);
     }
 
     public void resultLoop(){
@@ -114,8 +114,6 @@ public class MainActivity extends AppCompatActivity {
         btnHesapla=(RelativeLayout)findViewById(R.id.hesapla);
         hayir=(RelativeLayout)findViewById(R.id.hayir);
         evet=(RelativeLayout)findViewById(R.id.evet);
-
-
 
     }
 }
